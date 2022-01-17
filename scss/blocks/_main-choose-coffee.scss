@@ -1,0 +1,98 @@
+.main__middle {
+   margin-bottom: 168px;
+   background-image: url(../../images/Bitmap-back-middle.jpg);
+   width: 1250px;
+   height: 653px;
+   background-repeat: no-repeat;
+}
+
+.main__middle__info {
+      padding-top: 100px;
+      margin-bottom: 100px;
+      margin-left: 85px;
+}
+
+.main__middle__head {
+   margin-bottom: 67px;
+   margin-left: 50px;
+}
+
+.main__middle__head__line {
+   
+   display: flex;
+   
+   justify-content: space-between;
+   
+   align-items: center;
+   position: relative;
+   width: 760px;
+   height: 1px;
+   border: 2px solid #FDD6BA;
+   background-color: #FDD6BA;
+}
+
+.main__middle__head__circle {
+   display: block;
+   position: relative;
+   border-radius: 50%;
+   width: 31px;
+   height: 31px;
+   background-color: #FEFCF7;
+   border: 2px solid #0E8784;
+}
+
+.main__middle__head__circle:nth-child(1) {
+   
+   left: -15px;
+}
+
+.main__middle__head__circle:nth-child(3) {
+   right: -15px;
+}
+
+.main__middle__head__img {
+   width: 31px;
+   height: 31px;
+   
+   align-items: center;
+}
+
+.main__middle__head__img--piece {
+   width: 349px;
+   align-items: center;
+}
+
+.main__middle__list {
+   list-style: none;
+   display: flex;
+   margin-bottom: 64px;
+}
+
+.main__middle__item--element {
+   margin:0 95px;
+}
+
+.main__middle__image {
+   margin-bottom: 38px;
+}
+
+.main__middle__title {
+   margin-bottom: 42px;
+   width: 255px;
+   font-family: "Fraunces" , serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 36px;
+   color: #FEFCF7;
+}
+
+.main__middle__text {
+   width: 255px;
+   font-family: "Barlow" "Arial" , sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+}

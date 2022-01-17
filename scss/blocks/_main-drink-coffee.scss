@@ -1,0 +1,74 @@
+.main__drink__hero {
+   margin-left: 50px;
+}
+
+.main__drink__hero__piece {
+   display: flex;
+   border-bottom:  1px solid #83888F;
+   width: 255px;
+   margin-right: 157px;
+   margin-bottom: 24px;
+   
+   :hover {
+      color: #333D4B;
+   }
+}
+
+.main__drink__hero__piece__text--active {
+   margin-top: 0;
+   margin-right: 25px;
+   margin-bottom: 24px;
+   font-family: "Fraunces" , serif;
+   font-style: normal;
+   font-size: 24px;
+   font-weight: 900;
+   line-height: 32px;
+   color: #0E8784;
+}
+
+.main__drink__hero__piece__title--active {
+   margin-top: 0;
+   margin-bottom: 24px;
+   font-family: "Fraunces" , serif;
+   font-style: normal;
+   font-size: 24px;
+   font-weight: 900;
+   line-height: 32px;
+   color:#333D4B;
+}
+
+.main__drink__hero__piece__text {
+   margin-top: 0;
+   margin-right: 25px;
+   margin-bottom: 24px;
+   font-family: "Fraunces" , serif;
+   font-style: normal;
+   font-size: 24px;
+   font-weight: 900;
+   line-height: 32px;
+   color:#83888F;
+   
+   
+   :hover {
+      color: #0E8784;
+   }
+}
+
+.main__drink__hero__piece__title__link {
+   text-decoration: none;
+   margin-top: 0;
+   margin-bottom: 24px;
+   font-family: "Fraunces" , serif;
+   font-style: normal;
+   font-size: 24px;
+   font-weight: 900;
+   line-height: 32px;
+   color:#83888F;
+   
+   
+   :hover {
+      color: #333D4B;
+   }
+   
+}
+

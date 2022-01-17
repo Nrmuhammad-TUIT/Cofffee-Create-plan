@@ -1,0 +1,199 @@
+.main__header {
+   width: 1265px;
+   height: 450px;
+   margin-bottom: 155px;
+   background-image: url(../../images/Bitmap.jpg);
+   background-repeat: no-repeat;
+}
+
+.main__header__info {
+   margin-bottom: 137px ;
+   margin-left: 85px;
+   padding-top: 137px;
+}
+
+.main__header__info__title {
+   margin-top: 0;
+   margin-bottom: 24px;
+   font-family: "Fraunces" , serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #FEFCF7;
+}
+
+.main__header__info__text {
+   width: 445px;
+   margin-top: 0;
+   font-family: "Barlow" , "Arial" , sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+}
+
+.main__drink {
+   display: flex;
+}
+
+.main__drink__info__piece {
+   
+   margin-right: 80px;
+}
+
+.main__drink__info__piece__title {
+   font-family: "Fraunces" , serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color:#83888F;
+}
+
+.main__drink__hero__piece__title::after {
+   background-image: url(../../images/Path-yuqoriga.svg);
+}
+
+y.main__drink__list {
+   list-style: none;
+   display: flex;
+   margin-bottom: 88px;
+}
+
+.main__drink__list__item {
+   display: inline-block;
+   background: #F4F1EB;
+   border-radius: 8px;
+}
+
+.main__drink__list__item:nth-child(2) {
+   margin-right:  23px;
+   margin-left: 23px;
+}
+
+.main__drink__list__item:hover {
+   background-color: #FDD6BA;
+}
+
+.main__drink__list__item:active {
+   color: #F4F1EB;
+   background-color: #0E8784;
+}
+
+.main__drink__item__info {
+   margin-right: 28px;
+   margin-left: 28px;
+   margin-bottom: 84px;
+   padding-top: 32px;
+}
+
+.main__drink__item__title {
+   margin-bottom: 24px;
+   font-family: "Fraunces" , serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 32px;
+   color: #333D4B;
+}
+
+
+
+.main__drink__item__title:active {
+   color: #F4F1EB;
+}
+
+.main__drink__item__text {
+   width: 172px;
+   font-family: "Barlow" , "Arial" , sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #333D4B;
+}
+
+
+
+.main__drink__item__text:active {
+   color: #F4F1EB;
+}
+
+.main__drink__info__piece__info {
+      margin-bottom: 88px;
+}
+
+.main__drink__info__piece__info--active {
+   margin-bottom: 84px;
+}
+
+.main__drink__summary {
+   background-image: url(../../images/Bitmap3.png);
+   width: 730px;
+   height: 208px;
+   background-repeat: no-repeat;
+   margin-bottom: 40px;
+}
+
+.main__drink__summary__info {
+   margin-right: 64px;
+   margin-left: 64px;
+   margin-bottom: 70px;
+   padding-top: 30px;
+}
+
+.main__drink__summary__title {
+   margin-bottom: 8px;
+   font-family: "Barlow" , "Arial" , sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 26px;
+   color: #ffff;
+}
+
+.main__drink__summary__blockquote {
+   font-family: "Fraunces" , serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 40px;
+   color: #FEFCF7;
+}
+
+.blockquote__strong {
+   color: $main-green;
+}
+
+.main__drink__footer {
+   margin-bottom: 168px;
+   margin-left: 513px;
+   padding: 16px 35px;
+   background: #E2DEDB;
+   border-radius: 6px;
+   display: inline-block;
+}
+
+.main__drink__footer:hover {
+   background-color: #66D2CF;
+   color: #Ffff;
+}
+
+.main__drink__footer:active {
+   background-color: #0E8784;
+   color: #Ffff;
+}
+
+.main__drink__footer__link {
+   text-decoration: none;
+   font-family: "Fraunces" , serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 18px;
+   line-height: 25px;
+   color: $main-use;
+   text-align: center;
+   color: #FEFCF7;
+}
